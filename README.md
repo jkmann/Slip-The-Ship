@@ -17,45 +17,65 @@ Prepare This Readme.
 	1. What have I dont since our last meeting
 	2. What I plan do to till the next meeting
 	3. Are there any issues that the team can help me with.
-
-
-
-//TODO
+	
+######Slip The Ship
+	* Objective: Player has to escape the alien spaceship, navigating through treacherous levels
+		* Planning on 2D, but utilizing 3D assets/graphics
+		* Game will have multiple levels, player must beat each one to unlock the next level
+		* Game will be able to save the player's progress so that they can close the app and return to it
+		* Levels will get progressively harder, leading up to a final boss battle
+		* For score, the game will keep track of the amount of deaths/tries and/or amount of time it takes to beat all 			 of the levels
+		* Player can reset progress at any point
+	* Target Platform: Android OS
+	* Weekly scrum meeting time(tentative): Friday evenings
+	* GitHub Repo Manager: Dion Matthew Lagos
 
 
 
 ##Due 04/15:
-//TODO
+* Create a player and get the user to control him, also set the camera settings
+* Create the beginner/easy type of AI/obstacle for the first levels 
+* Create a baseline menu where the user can select the level they want to play, settings to reset progress, etc
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 04/22:
+* Have all assets/prefabs ready to use for further levels
+* Begin working on medium tier difficulty type of AI/Obstacle
+* Layout and decorate the first few levels
 //TODO
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 04/29:
-//TODO
+* Finalize the beginner/easy levels
+* Begin laying out medium difficulty levels
+* Begin working on hard tier AI/Obstacle
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/06:
-//TODO
+* Finalize medium levels
+* Begin layout for hard levels + boss
+* Boss AI
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/13:
-//TODO
+* Finalize boss and hard levels
+* Bug fixes and other adjustments
+* Make sure meun/user options are all working
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/20:DEMO DAY
-//TODO
+* Create recording/gameplay video
+* Prepare PowerPoint presentation, etc 
 ###Scrum meeting notes:
 //TODO
 
