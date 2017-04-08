@@ -17,15 +17,16 @@ Prepare This Readme.
 	1. What have I dont since our last meeting
 	2. What I plan do to till the next meeting
 	3. Are there any issues that the team can help me with.
-	
-######Slip The Ship
-	* Objective: Player has to escape the alien spaceship, navigating through treacherous levels
-		* Planning on 2D, but utilizing 3D assets/graphics
-		* Game will have multiple levels, player must beat each one to unlock the next level
-		* Game will be able to save the player's progress so that they can close the app and return to it
-		* Levels will get progressively harder, leading up to a final boss battle
-		* For score, the game will keep track of the amount of deaths/tries and/or amount of time it takes to beat all 			 of the levels
-		* Player can reset progress at any point
+
+## Slip The Ship
+
+* Objective: Player has to escape the alien spaceship, navigating through treacherous levels
+	* Planning on 2D, but utilizing 3D assets/graphics
+	* Game will have multiple levels, player must beat each one to unlock the next level
+	* Game will be able to save the player's progress so that they can close the app and return to it
+	* Levels will get progressively harder, leading up to a final boss battle
+	* For score, the game will keep track of the amount of deaths/tries and/or amount of time it takes to beat all of the levels
+	* Player can reset progress at any point
 	* Target Platform: Android OS
 	* Weekly scrum meeting time(tentative): Friday evenings
 	* GitHub Repo Manager: Dion Matthew Lagos
