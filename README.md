@@ -33,21 +33,23 @@ Prepare This Readme.
 
 
 
-##Due 04/15:
+## Due 04/15:
 * Create a player and get the user to control him, also set the camera settings
 * Create the beginner/easy type of AI/obstacle for the first levels 
 * Create a baseline menu where the user can select the level they want to play, settings to reset progress, etc
-###Scrum meeting notes:
-//TODO
-
+### Scrum meeting notes:
+* Discussed in class 
 ---
-##Due 04/22:
+## Due 04/22:
 * Have all assets/prefabs ready to use for further levels
 * Begin working on medium tier difficulty type of AI/Obstacle
 * Layout and decorate the first few levels
-//TODO
-###Scrum meeting notes:
-//TODO
+
+### Scrum meeting notes (4/17):
+* Plans for the week:
+	* Work on laying out the next few levels - Ryan
+	* Reskin the first level with the assets/theme we want to use - Jasmine
+	* Work on game management system - Dion
 
 ---
 ##Due 04/29:
