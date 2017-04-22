@@ -22,6 +22,10 @@ public class FinishedLevelChecker : MonoBehaviour {
 		void OnCollisionEnter(Collision col){
 		if (hasKey == true && col.gameObject.tag == "Player"){
 			print("You beat the level!");
+			if (PlayerPrefs.GetInt("CurLevel") >= SceneManager.GetActiveScene().buildIndex)
+				PlayerPrefs.SetInt ("CurLevel", PlayerPrefs.GetInt ("CurLevel") + 1);
+
+
 			SceneManager.LoadScene ("MainMenu");
 		}
 	}
