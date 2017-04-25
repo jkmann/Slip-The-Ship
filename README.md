@@ -56,8 +56,11 @@ Prepare This Readme.
 * Finalize the beginner/easy levels
 * Begin laying out medium difficulty levels
 * Begin working on hard tier AI/Obstacle
-###Scrum meeting notes:
-//TODO
+### Scrum meeting notes (4/24):
+* Plans for the week:
+	* Laid out first few levels, plan to finalize and refine them this week - Ryan
+	* Added minimap and option to switch camera angles, added some assets for our theme. Plan to fix bugs on the minimap, refine assets, and lay out a few more levels   - Jasmine
+	* Added game manager for menu and checking for finished levels, need to fix the axes bug and fix various other things. Also want to animate aliens - Dion
 
 ---
 ##Due 05/06:
