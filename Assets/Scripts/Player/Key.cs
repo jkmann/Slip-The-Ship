@@ -15,7 +15,7 @@ public class Key : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision col){
 		if (col.gameObject.tag == "Player") {
-			GameObject.FindGameObjectWithTag("Exit").GetComponent<Renderer>().material.SetColor("_Color", Color.green);
+			
 				Destroy(gameObject);
 		}
 	}

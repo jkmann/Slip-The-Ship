@@ -138,6 +138,8 @@ public class SimpleCharacterControl : MonoBehaviour {
 
     private void DirectUpdate()
     {
+		
+		//CrossPlatformInputManager.RegisterVirtualAxis
 		float v = CrossPlatformInputManager.GetAxis("Vertical");
 		float h = CrossPlatformInputManager.GetAxis("Horizontal");
 

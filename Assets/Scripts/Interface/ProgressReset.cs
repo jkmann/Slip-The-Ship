@@ -15,6 +15,7 @@ public class ProgressReset : MonoBehaviour {
 	}
 	public void ResetProgress(){
 		PlayerPrefs.SetInt ("deaths", 0);
-		//PlayerPrefs.SetInt ("CurLevel", 0);
+		PlayerPrefs.SetInt ("CurLevel", 0);
+
 	}
 }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreKeeper : MonoBehaviour {
 
 	public Text deathCount;
-	public Text curLevel;
+	//public Text curLevel;
 	// Use this for initialization
 	void Start () {
 		//deaths = PlayerPrefs.GetInt ("deaths");
@@ -15,7 +15,7 @@ public class ScoreKeeper : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		deathCount.text = "Deaths: " + PlayerPrefs.GetInt ("deaths").ToString();
-		curLevel.text = "Level: " + PlayerPrefs.GetInt ("CurLevel").ToString();
+
 	}
 
 
