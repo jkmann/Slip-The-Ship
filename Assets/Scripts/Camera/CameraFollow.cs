@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
     public GameObject player;       
-
+	public float distance;
     private Vector3 offset;        
 
     // Use this for initialization
     void Start()
     {
-       
-        offset = transform.position + player.transform.position;
+		offset = new Vector3 (transform.position.x, transform.position.y, transform.position.z + distance);
+        
     }
 
     
-    void LateUpdate()
+    void Update()
     {
        
-        transform.position = player.transform.position + offset;
+		transform.position = player.transform.position + offset;
+
     }
 
 }
