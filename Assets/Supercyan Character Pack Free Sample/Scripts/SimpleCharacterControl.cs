@@ -178,7 +178,7 @@ public class SimpleCharacterControl : MonoBehaviour {
     {
         bool jumpCooldownOver = (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
 
-		if (jumpCooldownOver && m_isGrounded && CrossPlatformInputManager.GetButton("Jump"))
+		if (jumpCooldownOver && m_isGrounded && (CrossPlatformInputManager.GetButton("Jump") || Input.GetKey(KeyCode.Space)))
         {
             m_jumpTimeStamp = Time.time;
             m_rigidBody.AddForce(Vector3.up * m_jumpForce, ForceMode.Impulse);
