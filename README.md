@@ -67,8 +67,11 @@ Prepare This Readme.
 * Finalize medium levels
 * Begin layout for hard levels + boss
 * Boss AI
-###Scrum meeting notes:
-//TODO
+### Scrum meeting notes (5/6):
+* Plans for the week:
+	* Tried to get spotlight working, finalized easy levels. Next week will fix spotlight. - Ryan
+	* Added two levels and textures this week. Next week, will create harder difficulty AI. - Jasmine
+	* Added two levels plus floating block AI. Will finalize game menu this week. - Dion
 
 ---
 ##Due 05/13:
