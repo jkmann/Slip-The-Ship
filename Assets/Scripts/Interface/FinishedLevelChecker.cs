@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class FinishedLevelChecker : MonoBehaviour
 {
-
+    
 	public Animation opendoor;
 	private bool hasKey;
 	// Use this for initialization
 	void Start ()
 	{
 		hasKey = false;
+        
 
 	}
 	
@@ -21,6 +22,7 @@ public class FinishedLevelChecker : MonoBehaviour
 		if (GameObject.FindGameObjectWithTag ("Key") == null && hasKey == false) {
 			hasKey = true;
 			OpenDoor ();
+           
 		}
 	}
 
