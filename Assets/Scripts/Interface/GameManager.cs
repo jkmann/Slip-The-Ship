@@ -5,22 +5,22 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
 
-	public static GameManager instance = null;
+	//public static GameManager instance = null;
 	public int current = 0;
 	public bool[] hasBeatLevel;
 	public Button[] levelButtons;
 	public int counter;
 	public Button reset;
-
+	public Text currentLevel;
 
 
 	void Awake ()
 	{
 		redoButtons ();
 		reset.onClick.AddListener (() => ResetProgress ());
+		currentLevel.text = "Level: " + PlayerPrefs.GetInt ("CurLevel");
 	}
 
 	// Use this for initialization
@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
 	void Update ()
 	{
 		
+		print(PlayerPrefs.GetInt("CurLevel"));
+		print ("hello");
 	}
 
 	public void ResetProgress ()

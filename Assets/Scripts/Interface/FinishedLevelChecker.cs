@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class FinishedLevelChecker : MonoBehaviour
 {
     
 	public Animation opendoor;
 	private bool hasKey;
+	public Transform hud;
+	public Transform lvlComplete;
+	public Button nextLevel;
+	public Button returnToMenu;
+
 	// Use this for initialization
 	void Start ()
 	{
 		hasKey = false;
-        
+		returnToMenu.onClick.AddListener (() => ReturnToMainMenu ());
+		nextLevel.onClick.AddListener (() => goToNextLevel ());
 
 	}
 	
@@ -34,7 +41,9 @@ public class FinishedLevelChecker : MonoBehaviour
 				PlayerPrefs.SetInt ("CurLevel", PlayerPrefs.GetInt ("CurLevel") + 1);
 			} 
 			Debug.Log (PlayerPrefs.GetInt ("CurLevel"));
-			SceneManager.LoadScene ("MainMenu");
+			hud.gameObject.SetActive (false);
+			lvlComplete.gameObject.SetActive (true);
+			Time.timeScale = 0;
 		}
 	}
 
@@ -42,4 +51,18 @@ public class FinishedLevelChecker : MonoBehaviour
 	{
 		gameObject.GetComponent<Animation> ().Play ();
 	}
+
+	void ReturnToMainMenu()
+	{
+		SceneManager.LoadScene(0);
+		Time.timeScale = 1;
+
+	}
+
+	void goToNextLevel()
+	{
+		int index = SceneManager.GetActiveScene().buildIndex;
+		SceneManager.LoadScene(index + 1);
+		Time.timeScale = 1;
+	}		
 }
