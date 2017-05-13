@@ -8,6 +8,7 @@ public class FinishedLevelChecker : MonoBehaviour
 {
     
 	public Animation opendoor;
+	public AudioClip doorSound;
 	private bool hasKey;
 	public Transform hud;
 	public Transform lvlComplete;
@@ -50,6 +51,8 @@ public class FinishedLevelChecker : MonoBehaviour
 	void OpenDoor ()
 	{
 		gameObject.GetComponent<Animation> ().Play ();
+		AudioSource.PlayClipAtPoint (doorSound, Camera.main.transform.position);
+
 	}
 
 	void ReturnToMainMenu()
