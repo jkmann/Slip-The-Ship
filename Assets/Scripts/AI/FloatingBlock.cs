@@ -6,7 +6,7 @@ public class FloatingBlock : MonoBehaviour {
 
 	public Transform[] waypoints;
 	int cur = 0;
-	float m_speed = .03f;
+	public float m_speed = .03f;
 	//private Vector3 direction;
 	void Start () {
 		
