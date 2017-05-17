@@ -55,7 +55,9 @@ public class GameManager : MonoBehaviour {
 
 	public void redoButtons ()
 	{
-
+		if (PlayerPrefs.GetInt ("CurLevel") >= 10) {
+			PlayerPrefs.SetInt ("CurLevel", 9);		
+		}
 			for (int j = 0; j <= PlayerPrefs.GetInt("CurLevel"); j++) { 
 				Button button = levelButtons [j];
 				Text text = button.GetComponentInChildren<Text> ();
