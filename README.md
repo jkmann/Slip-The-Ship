@@ -78,15 +78,22 @@ Prepare This Readme.
 * Finalize boss and hard levels
 * Bug fixes and other adjustments
 * Make sure meun/user options are all working
-###Scrum meeting notes:
-//TODO
+### Scrum meeting notes (5/13):
+* Plans for the week:
+	* Finalized level layouts, plan to fix spotlight/doors - Ryan
+	* Finalized level textures, plan to work on harder AI - Jasmine
+	* Added pause menu, will fix main menu this week - Dion
+
 
 ---
 ##Due 05/20:DEMO DAY
 * Create recording/gameplay video
 * Prepare PowerPoint presentation, etc 
-###Scrum meeting notes:
-//TODO
+### Scrum meeting notes (5/15):
+* Plans for the week:
+	* Fixed lights on doors, plan to refine for presentation this week - Ryan
+	* AI somewhat working, still need to fix - Jasmine
+	* Added level complete menu, fixed game manager - Dion
 
 ---
 ##Notes
