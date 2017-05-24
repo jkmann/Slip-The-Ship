@@ -2,24 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour {
-    public GameObject player;       
-	public float distance;
-    private Vector3 offset;        
+/* Script controls the camera to follow the player as he moves */
 
-    // Use this for initialization
-    void Start()
-    {
+public class CameraFollow : MonoBehaviour
+{
+
+	/* Player */
+	public GameObject player;
+
+	/* Public variable to adjust distance */
+	public float distance;
+
+	/* offset to change camera position */
+	private Vector3 offset;
+
+	// Use this for initialization
+	void Start ()
+	{
 		offset = new Vector3 (transform.position.x, transform.position.y, transform.position.z + distance);
         
-    }
+	}
 
     
-    void Update()
-    {
+	void Update ()
+	{
        
 		transform.position = player.transform.position + offset;
 
-    }
+	}
 
 }

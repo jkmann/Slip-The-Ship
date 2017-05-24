@@ -2,17 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiniMap : MonoBehaviour {
-	public GameObject player;       
+/* Controls minimap camera*/
+
+public class MiniMap : MonoBehaviour
+{
+
+	/* Player */
+	public GameObject player;
+
+	/* Public variable to adjust distance */
 	public float distance;
-	private Vector3 offset;  
-	// Use this for initialization
-	void Start () {
+
+	/* offset to change camera position */
+	private Vector3 offset;
+
+	void Start ()
+	{
 		offset = new Vector3 (transform.position.x, transform.position.y + distance, transform.position.z);
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	void Update ()
+	{
 		transform.position = player.transform.position + offset;
 	}
 }

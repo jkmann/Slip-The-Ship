@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Controls asteroid rotation on menu screen */
+
 public class Asteroid : MonoBehaviour {
 
 

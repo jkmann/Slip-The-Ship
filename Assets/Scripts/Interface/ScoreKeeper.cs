@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreKeeper : MonoBehaviour {
+/* Keep track of the player's score/deaths at all times */
+
+public class ScoreKeeper : MonoBehaviour
+{
 
 	public Text deathCount;
-	//public Text curLevel;
-	// Use this for initialization
-	void Start () {
-		//deaths = PlayerPrefs.GetInt ("deaths");
+
+	void Start ()
+	{
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		deathCount.text = "Deaths: " + PlayerPrefs.GetInt ("deaths").ToString();
+
+	void Update ()
+	{
+		deathCount.text = "Deaths: " + PlayerPrefs.GetInt ("deaths").ToString ();
 
 	}
 

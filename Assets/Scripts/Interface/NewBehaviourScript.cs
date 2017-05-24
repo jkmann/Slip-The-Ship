@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Script controls lights on doors */
+
 public class NewBehaviourScript : MonoBehaviour {
 
     public Material[] material;
